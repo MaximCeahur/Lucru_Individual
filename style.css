@@ -1,17 +1,21 @@
-
-body{
+body {
     width: 1920px;
     margin: 0 auto;
 }
 
-#header-bg{
+section{
+    margin: 0 auto;
+}
+
+#header-bg {
     width: 1920px;
     height: 1000px;
     border-bottom-right-radius: 300px;
     background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+    margin-bottom: 65px;
 }
 
-#logo{
+#logo {
     display: flex;
     justify-content: center;
     font-family: 'Poppins';
@@ -24,18 +28,16 @@ body{
     color: #FFFFFF;
     opacity: 0.8;
     gap: 10px;
-
 }
 
-ul{
+#nav-flex {
     display: flex;
     width: 502px;
-    
-
+    justify-content: space-around;
 }
 
-li a{
-    font-family: 'FontAwesome';
+#nav-flex a {
+    font-family: 'Poppins';
     font-size: 16px;
     line-height: 33px;
     display: flex;
@@ -45,14 +47,38 @@ li a{
     text-decoration: none;
 }
 
-nav{
-    position: absolute;
+nav {
+    margin: 0 auto;
+    padding-top: 28px;
     width: 1251px;
-    margin-top: 28px;
     display: flex;
+    justify-content: space-between;
 }
 
-#header-rectangle{
+nav button {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50px;
+    background: none;
+    height: 50px;
+    width: 150px;
+}
+
+nav button a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#rectangles {
+    margin-top: -80px;
+}
+
+#header-rectangle {
     position: absolute;
     margin-left: -87px;
     margin-top: -55px;
@@ -62,7 +88,7 @@ nav{
     height: 526px;
 }
 
-#header-rectangle-2{
+#header-rectangle-2 {
     position: absolute;
     margin-left: -87px;
     margin-top: 474px;
@@ -72,7 +98,7 @@ nav{
     height: 526px;
 }
 
-#header-rectangle-3{
+#header-rectangle-3 {
     position: absolute;
     width: 550px;
     height: 905px;
@@ -82,7 +108,7 @@ nav{
     border-radius: 0px 0px 350px 0px;
 }
 
-#header-rectangle-4{
+#header-rectangle-4 {
     position: absolute;
     width: 550px;
     height: 778px;
@@ -92,9 +118,9 @@ nav{
     border-top-left-radius: 350px;
 }
 
-#header-rectangle-5{
+#header-rectangle-5 {
     position: absolute;
-    width: 526px;
+    width: 381px;
     height: 526px;
     margin-top: -304px;
     margin-left: 1539px;
@@ -102,12 +128,305 @@ nav{
     border-radius: 300px 300px 300px 0px;
 }
 
-#header-rectangle-6{
+#header-rectangle-6 {
     position: absolute;
-    width: 526px;
+    width: 381px;
     height: 526px;
     margin-top: 222px;
     margin-left: 1539px;
     background: rgba(255, 255, 255, 0.03);
-    border-radius: 300px 0px 300px 300px;
+    border-radius: 300px 0px 0px 300px;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 335px;
+    margin-top: 181px;
+}
+
+#main-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#h1{
+    font-weight: 700;
+    font-family: 'DM Sans';
+    font-size: 85px;
+    color: #FFFFFF;
+    width: 642px;
+    margin-bottom: 29px;
+    line-height: 100px;
+}
+
+#sub-text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 42px;
+    color: #FFFFFF;
+    width: 507px;
+    margin-bottom: 38px;
+}
+
+#inner-flex {
+    display: flex;
+    gap: 20px;
+}
+
+#inner-flex button {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50px;
+    background: none;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+}
+
+#inner-flex button a {
+    text-decoration: none;
+    color: #0F2137;
+    font-family: 'DM Sans';
+    font-size: 16px;
+}
+
+figure {
+    display: flex;
+}
+
+#inner-flex figure figcaption {
+    margin-top: 3px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+
+#watch {
+    align-items: center;
+    margin: 0;
+}
+
+#inner-flex-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 490px;
+    margin-top: 37px;
+}
+
+#sponsor {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 42px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+#mockup{
+    z-index: 1;
+}
+
+#pattern{
+    position: absolute;
+    margin-left: 1349px;
+    margin-top: 145px;
+}
+
+/* Next Section */
+
+#second{
+    margin-bottom: 200px;
+}
+
+#feature-flex{
+    display: flex;
+    width: 995px;
+height: 469.5px;
+margin: 0 auto;
+flex-direction: column;
+gap: 78px;
+}
+
+#quality{
+    width: 510px;
+    height: 124px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#small-text{
+    font-family: 'DM Sans';
+    font-weight: 700;
+font-size: 14px;
+line-height: 40px;
+letter-spacing: 2.1px;
+color: #244886;
+}
+
+#quality span{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    vertical-align: middle;
+}
+
+#features{
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+#features img{
+    width: 110px;
+    height: 110px;
+}
+
+#features div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+
+#features span{
+    font-family: 'DM Sans';
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+color: #0F2137;
+}
+
+#features p{
+    font-family: 'DM Sans';
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #343D48;
+margin: 0;
+}
+
+/* Next section */
+
+#third{
+    margin-bottom: 166px;
+}
+
+#core{
+    display: flex;
+    margin-left: 439px;
+    gap: 128px;
+    align-items: flex-start;
+}
+
+#flex-core{
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+}
+
+#flex-core span{
+    font-family: 'DM Sans';
+font-weight: 700;
+font-size: 48px;
+line-height: 55px;
+letter-spacing: -1.5px;
+color: #0F2137;
+}
+
+#tab{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    width: 500px;
+height: 336px;
+gap: 66px;
+}
+
+#tab div {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+}
+
+#tab div div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#tab div div div{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 12px;
+color: #0F2137;
+margin-left: 4px;
+}
+
+#tab div div p{
+    font-family: 'DM Sans';
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+color: #343D48;
+margin: 0;
+}
+
+/* Next section */
+
+#fourth{
+    margin-bottom: 200px;
+}
+
+#q-grid{
+    margin: 0 auto;
+    display: grid;
+    margin-top: 78px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 100px;
+    column-gap: 66px;
+    width: 1247px;
+    
+}
+
+#q-grid div{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+#q-grid div div{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+#q-grid div div div{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+line-height: 12px;
+font-size: 18px;
+color: #0F2137;
+}
+
+#q-grid div div p{
+    font-family: 'DM Sans';
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+color: #343D48;
+margin: 0;
 }

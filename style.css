@@ -706,6 +706,7 @@ color: #0F2137;
     display: flex;
     gap: 62px;
     margin-left: 335px;
+    margin-bottom: 139px;
 }
 
 #eigth div{
@@ -714,4 +715,49 @@ color: #0F2137;
 
 #eigth div div{
     margin: 0;
+}
+
+/* Next section */
+
+#ninth{
+    margin-top: 200px;
+    margin: 0 auto;
+}
+
+#line-last{
+    position: absolute;
+width: 900px;
+height: 3px;
+background: #E5ECF4;
+margin-left: 5px;
+}
+
+#grid-last{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30px, 182px;
+    row-gap: 28px;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 58px;
+}
+
+#first-row{
+    font-family: 'DM Sans';
+font-weight: 1000;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.5px;
+color: #0F2137;
+}
+
+#small{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 250%;
+color: #02073E;
+opacity: 0.8;
+width: 226px;
 }

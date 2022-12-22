@@ -188,7 +188,6 @@ figure{
 #inner-flex button a {
     text-decoration: none;
     color: #0F2137;
-    font-family: 'DM Sans';
     font-size: 16px;
 }
 
@@ -211,9 +210,9 @@ figure{
 
 #feature-flex{
     width: 995px;
-height: 469.5px;
-margin: 0 auto;
-gap: 78px;
+    height: 469.5px;
+    margin: 0 auto;
+    gap: 78px;
 }
 
 #quality{
@@ -225,10 +224,10 @@ gap: 78px;
 
 #small-text{
     font-weight: 700;
-font-size: 14px;
-line-height: 40px;
-letter-spacing: 2.1px;
-color: #244886;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 2.1px;
+    color: #244886;
 }
 
 #quality span{
@@ -249,18 +248,18 @@ color: #244886;
 }
 
 #features span{
-font-weight: 700;
-font-size: 18px;
-line-height: 30px;
-color: #0F2137;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0F2137;
 }
 
 #features p{
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-color: #343D48;
-margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #343D48;
+    margin: 0;
 }
 
 /* Next section */
@@ -270,63 +269,382 @@ margin: 0;
 }
 
 #core{
-    display: flex;
     margin-left: 439px;
     gap: 128px;
-    align-items: flex-start;
 }
 
 #flex-core{
-    display: flex;
-    flex-direction: column;
     margin-top: 96px;
 }
 
 #span{
-    font-family: 'DM Sans';
-font-weight: 700;
-font-size: 48px;
-line-height: 55px;
-letter-spacing: -1.5px;
-color: #0F2137;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
 }
 
 #tab{
-    display: flex;
-    flex-direction: column;
     margin-top: 45px;
     width: 500px;
-height: 336px;
-gap: 66px;
+    height: 336px;
+    gap: 66px;
 }
 
 #tab div {
-    display: flex;
     gap: 18px;
-    align-items: flex-start;
 }
 
 #tab div div{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 
 #tab div div div{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 12px;
-color: #0F2137;
-margin-left: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 12px;
+    color: #0F2137;
+    margin-left: 4px;
 }
 
 #tab div div p{
-    font-family: 'DM Sans';
-font-weight: 400;
-font-size: 15px;
-line-height: 23px;
-color: #343D48;
-margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #343D48;
+    margin: 0;
+}
+
+/* Next section */
+
+#fourth{
+    margin-bottom: 200px;
+}
+
+#q-grid{
+    margin: 0 auto;
+    display: grid;
+    margin-top: 78px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 100px;
+    column-gap: 66px;
+    width: 1247px;
+    
+}
+
+#q-grid div{
+    gap: 25px;
+}
+
+#q-grid div div{
+    gap: 19px;
+}
+
+#q-grid div div div{
+    font-weight: 700;
+    line-height: 12px;
+    font-size: 18px;
+    color: #0F2137;
+}
+
+#q-grid div div p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #343D48;
+    margin: 0;
+}
+
+/* Next section */
+
+#fifth{
+    margin-bottom: 220px;
+}
+
+#flex-main{
+    margin-left: 336px;
+}
+
+#flex-inner{
+    width: 510px;
+    margin-top: 40px;
+}
+
+#flex-inner span{
+    margin-top: 8px;
+}
+
+#flex-inner p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    color: #02073E;
+    width: 454px;
+}
+
+#flex-inner button{
+    width: 150px;
+    height: 50px;
+    background: #1F3E76;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+}
+
+/* Next section */
+
+#sixth{
+    margin-bottom: 106px;
+    width: 1920px;
+    height: 770px;
+    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+}
+
+#rectangle-1{
+    position: absolute;
+    width: 550px;
+    height: 778px;
+    background: rgba(255, 255, 255, 0.02);
+    margin-top: 194px;
+    margin-left: -214px;
+}
+
+#rectangle-2{
+    position: absolute;
+    width: 526px;
+    height: 526px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 300px 300px 300px 0px;
+    margin-top: -332px;
+    margin-left: 336px;
+}
+
+#rectangle-3{
+    position: absolute;
+    width: 526px;
+    height: 526px;
+    margin-left: 1227px;
+    margin-top: 583px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 300px 300px 300px 0px;
+    transform: rotate(-180deg);
+}
+
+#rectangle-4{
+    position: absolute;
+    width: 167px;
+    height: 526px;
+    margin-left: 1753px;
+    margin-top: 57px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 300px 0px 0px 0px;
+}
+
+#sixth-flex{
+    gap: 148px;
+}
+
+#inner-flex-sixth-1{
+    gap: 2px;
+    margin-top: 90px;
+}
+
+#inner-flex-sixth-1 div{
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+#inner-flex-sixth-1 span{
+    font-weight: 350;
+    font-size: 36px;
+    line-height: 40px;
+    height: 40px;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+}
+
+#inner-flex-sixth-2{
+    width: 1234px;
+}
+
+#inner-flex-sixth-2 div div{
+    width: 72px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #22437D;
+    padding: 17px 17px 17px 17px;
+}
+
+#inner-flex-sixth-2 div span{
+    font-weight: 350;
+    font-size: 22px;
+    line-height: 155%;
+    color: #FFFFFF;
+    margin-top: 25px; 
+}
+
+#inner-flex-sixth-2 div p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.65;
+    width: 263px;
+    margin-top: 15px;
+}
+
+#sixth img{
+    position: absolute;
+    margin-top: 328px;
+    margin-left: 448px;
+}
+
+/* Next section */
+
+#seventh{
+    margin-bottom: 337px;
+}
+
+#testimony{
+    padding-top: 80px;
+    margin: 0 auto;
+    gap: 38px;
+}
+
+#testimony div{
+    width: 422px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 47px rgba(38, 78, 118, 0.1);
+    padding: 33px 14px 40px 41px;
+}
+
+#testimony div img{
+    width: 126px;
+    height: 32px;
+}
+
+#testimony div span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    color: #343D48;
+    margin-top: 6px;
+}
+
+#testimony div p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    color: #343D48;
+    margin: 20px 0 36px 0;
+    width: 368px;
+}
+
+#testimony div div{
+    gap: 19px;
+    box-shadow: none;
+    padding: 0;
+}
+
+#testimony div div img{
+    width: 55px;
+    height: 55px;
+    margin: 0;
+}
+
+#testimony div div div{
+    gap: 0;
+    padding: 0;
+}
+
+#testimony div div div a{
+    margin-top: -12px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: -0.375px;
+    color: #25A0FF;
+
+}
+
+#testimony div div div p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    color: #0F2137;
+}
+
+/* Next section */
+
+#eigth{
+    gap: 62px;
+    margin-left: 335px;
+    margin-bottom: 139px;
+}
+
+#eigth div{
+    margin-top: 84px;
+}
+
+#eigth div div{
+    margin: 0;
+}
+
+/* Next section */
+
+#ninth{
+    margin-top: 200px;
+    margin: 0 auto;
+}
+
+#line-last{
+    position: absolute;
+    width: 900px;
+    height: 3px;
+    background: #E5ECF4;
+    margin-left: 505px;
+}
+
+#grid-last{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30px, 182px;
+    row-gap: 28px;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 58px;
+}
+
+#first-row{
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+}
+
+#small{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 250%;
+    color: #02073E;
+    opacity: 0.8;
+    width: 226px;
 }

@@ -323,9 +323,9 @@ margin: 0;
 
 #core{
     display: flex;
+    align-items: flex-start;
     margin-left: 439px;
     gap: 128px;
-    align-items: flex-start;
 }
 
 #flex-core{
@@ -335,7 +335,6 @@ margin: 0;
 }
 
 #span{
-    font-family: 'DM Sans';
 font-weight: 700;
 font-size: 48px;
 line-height: 55px;
@@ -729,7 +728,7 @@ color: #0F2137;
 width: 900px;
 height: 3px;
 background: #E5ECF4;
-margin-left: 5px;
+margin-left: 505px;
 }
 
 #grid-last{
